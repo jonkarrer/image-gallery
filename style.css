@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+/*Skeleton*/
+body{
+    background-color: royalblue;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border: solid thin black;
+    height: 100vh;
+    width: 100vw;
+    transition: all 3s ease;
+}
+.flex-close{
+    flex-grow: 1;
+    border: solid thin black;
+    text-align: center;
+    transition: all 2.5s;
+
+}
+
+.flex-open{
+    flex-grow: 10;
+    border: solid thin black;
+    text-align: center;
+    transition: all 1.8s;
+    transition-timing-function: cubic-bezier(0.5, 0, 0.5, -0.35);
+   
+}
+
+#itemUno{
+    background-image: url("lake.jpg");
+    background-size: cover;
+  
+}
+#itemDos{
+    background-image: url("lo.jpg");
+    background-size: cover;
+  
+}
+#itemTres{
+    background-image: url("mountain.jpg");
+    background-size: cover;    
+
+}
+#itemQuad{
+    background-image: url("kansaslake.jpg");
+    background-size: cover;
+
+}
+#itemCinco{
+    background-image: url("tent.jpg");
+    background-size: cover;  
+
+}
